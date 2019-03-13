@@ -1,1 +1,1 @@
-Personal website. Nothing works and ther is no content.
+Personal website. Nothing works and there is no content.
