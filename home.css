@@ -1,9 +1,14 @@
 body {
-	background-color: #D4A0A7;
+	background-color: #E3E3E3;
 }
 
 h1 {
-    color: #5DA271;
+	font-family: arial;
+    color: black;
+}
+.links {
+	font-family: arial;
+    color: black;
 	text-align: center;
 }
 
@@ -19,3 +24,10 @@ h1 {
 .button:hover {
     background-color: #C6596B;
   }
+.rotate90 {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
