@@ -12,7 +12,19 @@ h2 {
 	color: black;
 }
 
-.bottomPic {
+#maintext {
+    text-align: center;
+}
+
+.upperPics {
+    max-width: 75%;
+    max-height: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#meInHat {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
@@ -33,22 +45,20 @@ h2 {
     font-size: 16px;
     cursor: pointer;
   }
+
 .button:hover {
     background-color: #C6596B;
   }
-.rotate90 {
-    -webkit-transform: rotate(90deg);
-    -moz-transform: rotate(90deg);
-    -o-transform: rotate(90deg);
-    -ms-transform: rotate(90deg);
-    transform: rotate(90deg);
+
+.col-container {
+    display: flex;
+    width: 100%;
 }
 
 /* from w3schools Three image containers (use 25% for four, and 50% for two, etc) */
 .column {
-  float: left;
-  width: 50%;
-  padding: 5px;
+  flex: 1;
+  padding: 16px;
 }
 
 /* from w3schools Clear floats after image containers */
