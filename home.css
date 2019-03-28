@@ -5,7 +5,6 @@ body {
 
 #mobileWarning {
     display: none;
-    visibility: hidden;
     color: cornflowerblue;
     text-shadow: 3px 2px red;
 }
@@ -68,14 +67,13 @@ h2 {
     padding: 16px;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 768px) {
     .col { 
         display: block;
         width: 100%;
     }
     #mobileWarning {
     display: block;
-    visibility: visible;
     }
 }
 
