@@ -1,5 +1,6 @@
 body {
 	background-color: #E3E3E3;
+	margin: auto;
 }
 
 h1 {
@@ -9,6 +10,12 @@ h1 {
 
 h2 {
 	color: black;
+}
+
+.bottomPic {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .links {
@@ -35,4 +42,18 @@ h2 {
     -o-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);
+}
+
+/* from w3schools Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+
+/* from w3schools Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
 }
