@@ -3,6 +3,14 @@ body {
 	margin: auto;
 }
 
+#mobileWarning {
+    display: none;
+    visibility: hidden;
+    text-align: center;
+    color: red;
+    text-emphasis-color: cornflowerblue;
+}
+
 h1 {
 	font-family: arial;
     color: black;
@@ -53,20 +61,25 @@ h2 {
 .col-container {
     display: flex;
     width: 100%;
-}
+    }
 
 /* from w3schools Three image containers (use 25% for four, and 50% for two, etc) */
 .column {
-  flex: 1;
-  padding: 16px;
+    flex: 1;
+    padding: 16px;
 }
 
 @media only screen and (max-width: 600px) {
-  .col { 
+    .col { 
+        display: block;
+        width: 100%;
+    }
+    #mobileWarning {
     display: block;
-    width: 100%;
-  }
+    visibility: visible;
+    }
 }
+
 
 /* from w3schools Clear floats after image containers */
 .row::after {
