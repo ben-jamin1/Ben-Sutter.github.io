@@ -6,9 +6,8 @@ body {
 #mobileWarning {
     display: none;
     visibility: hidden;
-    text-align: center;
-    color: red;
-    text-emphasis-color: cornflowerblue;
+    color: cornflowerblue;
+    text-shadow: 3px 2px red;
 }
 
 h1 {
